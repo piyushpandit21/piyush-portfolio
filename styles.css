@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: #222831;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #393e46;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.right a:hover {
+  color: #ffbd59f7;
+  font-size: 110%;
+  border-bottom:2px dotted #ffbd59f7;
+}
+.secondsection {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+.secondsection div img {
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+}
+.right2section {
+  width: 400px;
+  height: 400px;
+  font-size: 30px;
+  padding: 20px;
+}
+.left2section {
+  width: 500px;
+  font-size: 30px;
+  padding: 20px;
+}
+#name {
+  color: #ffbd59f7;
+}
+main .hr {
+  border: 0;
+  height: 2px;
+  background: #eeeeee;
+  margin: 40px 84px;
+}
+.thirdsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px;
+  gap: 60px;
+}
+body > main > section.thirdsection > div {
+  height: 550px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.card:hover {
+  zoom: 1.05;
+}
+footer {
+  text-align: center;
+  background-color: #393e46;
+  padding: 10px;
+}
+.card {
+  width: 400px;
+  height: 600px;
+}
+.card-img-top {
+  height: 358px;
+  width: 398px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+}
+
+.firstsection h1 {
+  color: #ffbd59f7;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+#home > div {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  height: 50vh;
+}
+.firstsection h2 {
+  position: relative;
+  top: 40px;
+  font-family: 'Borel', cursive;
+}
+footer .text-body-secondary{
+  color: #ffbd59f7 !important;
+}
+#contactme{
+display: flex;
+justify-content: center;
+}
+.contactimg:hover{
+  border: 2px dotted #c49552f7;
+}
